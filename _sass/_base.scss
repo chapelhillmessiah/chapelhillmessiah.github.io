@@ -231,9 +231,13 @@ header {
         color: white;
         opacity: 1;
         display: block;
-        background: rgba( $theme-dark, .3 );
+        background: rgba( $theme-dark, .4 );
         position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
         bottom: 0;
+        margin: auto;
         text-align: center;
         padding: 10px;
         @include transition-all;
